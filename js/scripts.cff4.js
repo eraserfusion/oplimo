@@ -1,0 +1,1 @@
+function autotab(a,b){a.getAttribute&&a.value.length==a.getAttribute("maxlength")&&b.focus()}function validateForm(){var a=document.forms.LimoForm.first.value,b=document.forms.LimoForm.second.value,c=document.forms.LimoForm.third.value;(/\D/.test(a)||/\D/.test(b)||/\D/.test(c))&&alert("Please only enter numeric characters for your phone number (Allowed input:0-9)")}
